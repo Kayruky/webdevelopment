@@ -10,4 +10,4 @@
  }
  .white {color : white;}
  .white:visited {color : gray;}
- .size {font-size: 21px}
+ .size li:not("skip"){font-size: 19px}
