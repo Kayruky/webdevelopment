@@ -1,2 +1,7 @@
 
-body {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBW88FomYVD_EtYqTI4lM_-sTpcTvVE8heFdiWBz8WEA&s=10"); accent-color: white;}
+ body {
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rmcRDOL812p7kKumNBaZAUDcxMm4KMW86MpwNfTtbg&s=10');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
