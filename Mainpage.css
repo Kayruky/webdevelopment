@@ -8,5 +8,6 @@
      text-shadow: 1px 1px 3px black;
 
  }
- .white {color : white}
+ .white {color : white;}
+ .white:visited {color : gray;}
  .size {font-size: 21px}
