@@ -5,5 +5,6 @@
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: fixed;
+     text-shadow: 1px 1px 3px black;
  }
  a {color: white}
