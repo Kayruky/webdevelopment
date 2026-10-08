@@ -1,8 +1,9 @@
 
  body {
-     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rmcRDOL812p7kKumNBaZAUDcxMm4KMW86MpwNfTtbg&s=10');
+     background-image: url('Mainpage img/img_1.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
-     accent-color: white;
+     background-attachment: fixed;
  }
+ a {color: white}
