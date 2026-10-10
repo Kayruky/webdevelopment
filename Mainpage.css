@@ -11,5 +11,5 @@
  }
  .white {color : white;}
  .size li:not(.skip){font-size: 16px}
- a {color : #121212}
+ a {color : grey;}
  a:visited{color : lightpink}
