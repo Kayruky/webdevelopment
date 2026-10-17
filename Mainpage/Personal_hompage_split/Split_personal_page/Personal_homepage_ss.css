@@ -1,11 +1,12 @@
 body {
-    background-image: url('/Split_homepages/Images/Japan.png') ;
+    background-image: url('Images/Japan.png') ;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
     text-shadow: 1px 1px 9px black
 
+    
 }
 
 nav {

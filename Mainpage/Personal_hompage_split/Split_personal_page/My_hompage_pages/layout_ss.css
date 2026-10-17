@@ -38,21 +38,21 @@ body{
 }
 
 #gaming{
-    background-image: url('../../Images/Games.png');}
+    background-image: url('../Images/Games.png');}
 #music{
-background-image: url('../../Images/Music.png');}
+background-image: url('../Images/Music.png');}
 #movies{
-background-image: url('../../Images/Movies.png');}
+background-image: url('../Images/Movies.png');}
 #skate{
-background-image: url('../../Images/Skate.png');}
+background-image: url('../Images/Skate.png');}
 #draw{
-background-image: url('../../Images/Draw.png');}
+background-image: url('../Images/Draw.png');}
 #japan_c{
-    background-image: url('../../Images/Japan_c.png');}
+    background-image: url('../Images/Japan_c.png');}
 #program{
-    background-image: url('../../Images/Program.png');}
+    background-image: url('../Images/Program.png');}
 #rest{
-    background-image: url('../../Images/Rest.png');}
+    background-image: url('../Images/Rest.png');}
 
 .box_txt{
     flex:1;
@@ -60,6 +60,7 @@ background-image: url('../../Images/Draw.png');}
     height: 150px;
     background-size: cover;
     background: linear-gradient(to right, rgba(245, 222, 179, 0.35), rgba(245, 222, 179, 0)) ;
+    margin-bottom: 30px
 }
 .row:nth-child(odd) .box_txt{
     text-align:right ;
