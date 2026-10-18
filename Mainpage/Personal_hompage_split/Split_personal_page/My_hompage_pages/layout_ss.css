@@ -12,6 +12,7 @@ body{
 .row:nth-child(even){
     flex-direction: row-reverse;
 }
+
 .box_img{
     height: 200px;
     width: 400px;
@@ -37,7 +38,7 @@ body{
     
 }
 
-#gaming{
+#games{
     background-image: url('../Images/Games.png');}
 #music{
 background-image: url('../Images/Music.png');}
@@ -67,5 +68,86 @@ background-image: url('../Images/Draw.png');}
     background: linear-gradient(to left, rgba(245, 222, 179, 0.35), rgba(245, 222, 179, 0))
 }
 
+.column {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;      /* gives the columns room to stretch to the bottom */
+    position: relative;
+}
 
+.column > div {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(to bottom, var(--top, #6b4b7e6c), #000);
+}
+
+#gaming   { --top: #3a1bd899; }
+#guitar   { --top: #ac6c0c99; }
+#skating  { --top: #30010199; }
+#drawing  { --top: #d3b49799; }
+#others   { --top: #c0878799; }
+
+.box-img {
+    aspect-ratio: 3 / 5;
+    flex: 0 0 auto;         /* was 1 1 0: the image keeps its own size */
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+
+    -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000,
+         0 0 8px #000;
+}
+
+.box-txt {
+    flex: 1;
+    ;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#gaming-img{
+    background-image: url(../Images/Gaming.png);
+}
+#gaming-txt{
+    background: linear-gradient(to bottom, rgba(245, 222, 179, 0.35), rgba(245, 222, 179, 0));
+}
+#guitar-img{
+    background-image: url(../Images/Guitar.png);
+}
+#skating-img{
+    background-image: url(../Images/Skating.png);
+}
+#drawing-img{
+    background-image: url(../Images/Drawing.png);
+}
+#other-img{ 
+    background-image: url(../Images/Other.png);
+}
+
+.center{
+    display: block;
+    text-align: center;
+}
 
