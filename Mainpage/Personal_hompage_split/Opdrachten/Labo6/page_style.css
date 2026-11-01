@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+h1{
+    font-variant: small-caps;
+    color: red;
+}
+a{
+    background: url("../../Split_personal_page/Images/Link_icon.png") no-repeat left center;
+    padding-left: 25px;
+    background-size: 20px;
+}
+a:hover{
+    border: 2px solid red;
+}
+.stippeltjesrand{
+    border: 2px dotted red;
+}

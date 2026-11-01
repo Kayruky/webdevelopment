@@ -1,0 +1,13 @@
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.checklist li {
+    background: url('../../Split_personal_page/Images/checkbox.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+.checklist li.checked {
+    background-image: url('../../Split_personal_page/Images/checkedbox.png');
+}
