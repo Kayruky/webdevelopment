@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    padding: 10px;
+}
+th, td{
+    border: 1px dotted black;
+    padding: 10px;
+}
+thead th{
+    background-color: rgb(170,170,200);
+    color: white;
+}
+tbody th{
+    background-color: rgb(35,37,70);
+    color:  rgb(200,190,240);
+}
+tbody td:first-child,
+tbody td:last-child{
+    background-color: #e6a1a19c;
+}
+tbody tr .holiday{
+    background-color: rgb(250,120,120);
+}
+tbody tr .greyed_out{
+    background-color: rgb(192, 192, 192);
+    color: rgb(128, 127, 127);
+}

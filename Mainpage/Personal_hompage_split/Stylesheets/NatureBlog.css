@@ -1,0 +1,29 @@
+section{
+    width: 95%;
+    margin: auto;
+}
+nav{
+    background-color: #4e4e4e;
+    overflow: hidden;
+    a{
+        color: rgb(1, 255, 1)
+    }
+}   
+section > header{
+    background-image: url(../Split_personal_page/Images/NatureBlog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    color: white;
+}
+article{
+    background-color: #dfdddd;
+    color: black;
+    margin: 20px;
+    padding: 3px
+}
+article > header{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+    padding: 3px;
+}
