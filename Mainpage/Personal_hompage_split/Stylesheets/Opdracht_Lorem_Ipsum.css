@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 100%;          
+    font-size: 0;
+}
+
+.half {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    vertical-align: top;      /* beide boxes bovenaan uitlijnen */
+    font-size: 16px;          /* zet de tekstgrootte weer terug */
+}

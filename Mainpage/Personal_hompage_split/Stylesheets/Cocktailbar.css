@@ -1,0 +1,77 @@
+#wrapper{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 1.2em;
+}
+header #imgHeader{
+    height: 200px;
+}
+header{
+    align-items: center;
+    text-align: center;
+}
+aside{
+    border: 3px solid skyblue;
+    width:30%;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-image: url(../Split_personal_page/Images/cocktail.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+}
+aside h2{
+    color: red
+}
+aside a{
+    color: #444444;
+}
+aside a:hover{
+    color: brown;
+}
+article{
+    width: 70%;
+}
+article h1{
+    font-size: 150%;
+    color: rgb(0, 126, 126)
+}
+article h2{
+    font-size: 130%;
+    color: rgb(0, 126, 126)
+}
+div#content article div{
+    background-color: rgb(167, 206, 206);
+    background-image: url(../Split_personal_page/Images/background.gif);
+    background-repeat: no-repeat;
+    position: relative;
+    border: 2px dotted white;
+    margin: 30px;
+    padding: 20px;
+}
+div#content article div p#guarantee{
+    position:relative;
+    font-style: italic;
+    margin-left: 50px;
+    color: #444444;
+}
+p#guarantee a{
+    color:#444444;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size:0.5em;
+    text-align: center;
+    text-align:bottom;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight:bold;
+}
